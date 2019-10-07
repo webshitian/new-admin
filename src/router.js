@@ -20,6 +20,8 @@ export default new Router({
     //登录页
     {path:"/login",component:Login},
     //后台首页
-    {path:"/",component:Index}
+    {path:"/",component:Index,Index,children:[
+      
+    ]}
   ]
 })
