@@ -92,6 +92,8 @@ export default {
       // index是索引， row是对象
       handleEdit(index, row) {
         console.log(index, row);
+        //跳转到编辑页
+       this.$router.push("/post_edit/" + row.id);
       },
 
       //关闭或者打开文章
